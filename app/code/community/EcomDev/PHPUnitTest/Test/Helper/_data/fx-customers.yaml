@@ -12,6 +12,7 @@ eav:
       pasword_hash: d1bcc360d05a6bdd7484784f43660c88:hG
       default_billing: 1
       default_shipping: 1
+      customer_activated: 1
     - entity_id: 2 # Customer without addresses
       attribute_set_id: 0 # Fix issue with customer entity
       website_id: 1
@@ -22,6 +23,7 @@ eav:
       lastname: Doe
       email: jane@doe.com
       pasword_hash: d1bcc360d05a6bdd7484784f43660c88:hG
+      customer_activated: 1
   customer_address:
     - entity_id: 1 # Let him to be a guy from Nevada
       attribute_set_id: 0 # Fix issue with customer address entity
